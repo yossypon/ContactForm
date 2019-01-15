@@ -1,0 +1,366 @@
+@charset "utf-8";
+
+/* 
+http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	font-family: "游ゴシック", "Yu Gothic";
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    width: 100vw;
+    margin-top: 1em;
+}
+
+.wrap{
+    width: 100%;
+}
+
+article{
+    width: 100%;
+}
+
+.img img{
+    display: block;
+    margin: 40px auto 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a{
+    cursor: pointer;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.red {color: red;}
+.blue {color: blue;}
+.green {color: green;}
+
+.small {font-size: .8rem;}
+.large {font-size: 1.6rem;}
+.bold {font-weight: bold;}
+.center {text-align: center;}
+.inline{float: left;}
+
+/*--------------wrap--------------------*/
+.wrap {
+    margin: auto;
+}
+
+/*-------------header--------------------*/
+header {
+    width: 100%;
+}
+
+header h1{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+/*-------------nav--------------------*/
+nav {
+    margin: .5em auto 0 auto;
+    background-color: rgb(153, 153, 153);
+    width: 95%;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    background-color: #eee;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2em;
+    width: 16.54%;
+}
+
+nav ul li+li {
+    margin-left: 2px;
+}
+nav ul li a {
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: rgba(153,153,153,1);
+    color :#fff;
+}
+
+nav ul li span {
+    background-color: rgb(189, 66, 66);
+    color :#fff;
+    display: block;
+}
+
+/*-------------pankuzu------------------*/
+article{
+    width: 100%;
+}
+
+/*-------------pankuzu------------------*/
+#pankuzu {
+    margin-left: 1rem;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+#pankuzu ul li{
+    display:inline;
+    font-weight: bold;
+}
+
+#pankuzu ul li a:hover {
+    text-decoration: none;
+    color: rgba(136, 136, 136, 0.762);
+}
+
+#pankuzu ul li span{
+    color: #888;
+}
+
+/*-------------main--------------------*/
+main {
+    width: 65%;
+    margin: auto;
+    padding: 0;
+}
+
+main .subpage {
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: rgb(28, 74, 28);
+    margin-bottom: 1em;
+    margin-top: 1em;
+    height: 3em;
+    line-height: 3em;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* タブメニュー */
+ul.menu {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    background: #eee;
+}
+
+ul.menu li {
+    display: inline-block;
+    width: 33.3%;
+}
+
+ul.menu li a {
+    display: block;
+    font-size: 1.2rem;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    color: #333;
+    background: #eee;
+}
+
+ul.menu li a.active {
+    background: #222;
+    color: #fff;
+}
+
+ul.menu li a:not(.active):hover {
+    color: rgb(238, 238, 238);
+    transition: .8s;
+    background: rgba(34, 34, 34, 0.461);
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+    border: 1px solid #222;
+}
+
+/*-------------form------------------*/
+form {
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+}
+
+form h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: .5em;
+    padding-top: 1rem;
+}
+
+form div {
+    width: 97%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+form p {
+    margin: .5em 0;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.need {
+    border: red 1px dashed;
+    margin-left: .5em;
+    border-radius: 1rem;
+    color: red;
+    padding: 0.1em .4em;
+    font-size: 1rem;
+}
+
+#name,#email,#tel {
+    width: 85%;
+    height: 2.5em;
+}
+
+.yubin{
+    width: 30%;
+    height: 2.5em;
+}
+
+.address_space{
+    margin-top: 0.4em;
+    width: 70%;
+    height: 2.5em;
+}
+
+#name,#email,#freetext {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#freetext {
+    width: 97%;
+    height: 12rem;
+    font-size: 1rem;
+    border: 1.4px solid rgb(223,223,223);
+}
+
+/*イメージ*/
+.content form img{
+    max-width: 100%;
+}
+
+/*性別*/
+.gender input {
+    width: 1em;
+    height: 1em;
+}
+
+#women {
+    margin-left: 2em;
+}
+
+/*日時*/
+.date p span {
+    text-decoration: line-through;
+}
+.date input {
+    width: 15px;
+    height: 15px;;
+}
+.date label {
+    font-size: 20px;
+}
+
+/*submit*/
+.submit input{
+    cursor: pointer;
+    width: 8rem;
+    height: 3rem;
+    background-color: #fff;
+    border: 2px solid rgba(28, 74, 28, 0.824);
+    font-size: 1.3rem;
+    color: rgb(28, 74, 28);
+}
+
+.submit input:hover{
+    background-color: rgba(28, 74, 28);
+    color: #fff;
+    transition: .5s;
+}
+
+/*-------------footer------------------*/
+footer {
+    margin-top: 1em;
+    width: 100%;
+    background-color: #333;
+}
+footer p {
+    color: #fff;
+}
