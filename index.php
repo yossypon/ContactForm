@@ -30,7 +30,7 @@
                 </ul>
 
                 <div class="content active" id="tour">
-                    <form name="form" method="post" action="completion.php">
+                    <form name="form" method="post" action="tour_form.php">
                         <p class="center"><img src="images/banner.png" alt="施設見学会" width="600" class="center"></p>
                         <h2>施設見学ご予約フォーム</h2>
                         <div class="name">
@@ -60,7 +60,7 @@
                 </div><!-- tour -->
 
                 <div class="content" id="document">
-                    <form name="form" method="post" action="thankyou.php">
+                    <form name="form" method="post" action="document_form.php">
                         <p class="center"><img src="images/document.jpg" alt="資料請求" width="600" class="center"></p>
                         <h2>資料請求</h2>
                         <div class="name">
@@ -100,7 +100,7 @@
                 </div><!-- document -->
 
                 <div class="content" id="contact">
-                    <form name="form" method="post" action="recruit.php">
+                    <form name="form" method="post" action="recruit_form.php">
                         <p class="center"><img src="images/contact.jpg" alt="採用" width="600" class="center"></p>
                         <h2>選考エントリー</h2>
                         <div class="name">

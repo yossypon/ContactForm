@@ -1,6 +1,6 @@
 <nav>
     <ul>
-        <li><a href="#">Webサイト制作</a></li>
+        <li><a href="#">WEB制作</a></li>
         <li><a href="#">受講生の作品</a></li>
         <li><a href="#">卒業生の声</a></li>
         <li><a href="#">カリキュラム</a></li>
