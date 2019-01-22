@@ -155,7 +155,7 @@ nav ul li span {
         background-color: #fff;
     }
     nav ul li{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         width: 16.2%;
     }
 }
@@ -271,13 +271,13 @@ ul.menu li a:not(.active):hover {
 form {
     width: 80%;
     margin: auto;
-    padding: 2em;
+    padding: 1.5em;
 }
 
 /* 35rem以下の環境 */ 
 @media screen and (max-width:35rem){
     form{
-        width: 96%;
+        width: 100%;
     }
 }
 
@@ -312,7 +312,7 @@ h3 {
 }
 
 #name,#email,#tel {
-    width: 85%;
+    width: 90%;
     height: 2.5em;
 }
 
@@ -325,6 +325,17 @@ h3 {
     margin-top: 0.4em;
     width: 70%;
     height: 2.5em;
+}
+
+
+/* 35rem以下の環境 */ 
+@media screen and (max-width:35rem){
+    .yubin{
+        width: 70%;
+    }
+    .address_space{
+        width: 90%;
+    }
 }
 
 #name,#email,#freetext {
