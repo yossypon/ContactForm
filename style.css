@@ -148,6 +148,18 @@ nav ul li span {
     display: block;
 }
 
+/* 35rem以下の環境 */ 
+@media screen and (max-width:35rem){
+    nav{
+        width: 99%;
+        background-color: #fff;
+    }
+    nav ul li{
+        font-size: 0.7rem;
+        width: 16.2%;
+    }
+}
+
 /*-------------pankuzu------------------*/
 article{
     width: 100%;
@@ -174,11 +186,25 @@ article{
     color: #888;
 }
 
+/* 35rem以下の環境 */ 
+@media screen and (max-width:35rem){
+    #pankuzu ul li{
+        font-size: 1rem;
+    }
+}
+
 /*-------------main--------------------*/
 main {
     width: 65%;
     margin: auto;
     padding: 0;
+}
+
+/* 35rem以下の環境 */ 
+@media screen and (max-width:35rem){
+    main{
+        width: 90%;
+    }
 }
 
 main .subpage {
@@ -246,6 +272,13 @@ form {
     width: 80%;
     margin: auto;
     padding: 2em;
+}
+
+/* 35rem以下の環境 */ 
+@media screen and (max-width:35rem){
+    form{
+        width: 96%;
+    }
 }
 
 form h2 {
